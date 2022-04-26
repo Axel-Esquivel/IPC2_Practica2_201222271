@@ -13,6 +13,7 @@ html {
 .bloque {
     width: 100%;
     height: auto;
+    padding: 1em;
 }
 
 .titulo-encabezado {
@@ -44,12 +45,13 @@ html {
 
 .titulo {
     display: flex;
-    font-size: 48px;
+    font-size: 44px;
     align-items: center;
 }
 
 div.logos,
-div.idiomas {
+div.idiomas,
+div.elementos-formacion {
     gap: 1em;
     display: flex;
     flex-wrap: wrap;
@@ -59,16 +61,79 @@ div.idiomas {
 
 div.logos>div.logo,
 div.idiomas>div.idioma {
+    gap: 0.8em;
     height: 9em;
     flex-grow: 1;
     display: flex;
-    max-width: 9em;
+    max-width: 8em;
+    width: 8em;
     align-items: center;
     flex-direction: column;
     justify-content: center;
 }
 
+div.elementos-formacion {
+    font-size: 10px;
+    padding: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+div.elemento-formacion {
+    gap: 0.1em;
+    width: 32em;
+    padding: 1em;
+    flex-grow: 1;
+    display: grid;
+    max-width: 32em;
+    min-width: 32em;
+    grid-template-areas: "formacion periodo"
+                         "establecimiento establecimiento";
+}
+
+.formacion {
+    width: 23em;
+    font-weight: 600;
+    grid-area: formacion;
+}
+
+.periodo {
+    width: 7em;
+    text-align: end;
+    grid-area: periodo;
+}
+
+.establecimiento {
+    justify-items: start;
+    grid-area: establecimiento;
+}
+
 div.idiomas>div.idioma>video {
     width: 4em;
     height: 4em;
+}
+
+@media (min-width: 300px) {
+    div.elementos-formacion {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 500px) {
+    div.elementos-formacion {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 700px) {
+    div.elementos-formacion {
+        font-size: 18px;
+    }
+}
+
+.progress {
+    width: 100%;
 }
