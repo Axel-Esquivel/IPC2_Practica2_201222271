@@ -48,7 +48,8 @@ html {
     align-items: center;
 }
 
-div.logos{
+div.logos,
+div.idiomas {
     gap: 1em;
     display: flex;
     flex-wrap: wrap;
@@ -56,7 +57,8 @@ div.logos{
     justify-content: center;
 }
 
-div.logos > div.logo{
+div.logos>div.logo,
+div.idiomas>div.idioma {
     height: 9em;
     flex-grow: 1;
     display: flex;
@@ -64,4 +66,9 @@ div.logos > div.logo{
     align-items: center;
     flex-direction: column;
     justify-content: center;
+}
+
+div.idiomas>div.idioma>video {
+    width: 4em;
+    height: 4em;
 }
