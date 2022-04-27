@@ -1,6 +1,6 @@
 lenguajes = [
-    { nombre: 'C Sharp', imagen: 'c-sharp.svg', nivel: 90 },
-    { nombre: 'Java', imagen: 'java.svg', nivel: 90 },
+    { nombre: 'C Sharp', imagen: 'c-sharp.svg', nivel: 95 },
+    { nombre: 'Java', imagen: 'java.svg', nivel: 80 },
     { nombre: 'HTML 5', imagen: 'html-5.svg', nivel: 80 },
     { nombre: 'CSS 3', imagen: 'css-3.svg', nivel: 60 },
     { nombre: 'Bootstrap', imagen: 'bootstrap.svg', nivel: 80 },
@@ -10,7 +10,7 @@ lenguajes = [
     { nombre: 'Angular', imagen: 'angular.svg', nivel: 90 },
     { nombre: 'Ionic', imagen: 'ionic.svg', nivel: 90 },
     { nombre: 'NestJS', imagen: 'nestjs.svg', nivel: 80 },
-    { nombre: 'Python', imagen: 'python.svg', nivel: 90 },
+    { nombre: 'Python', imagen: 'python.svg', nivel: 70 },
     { nombre: 'DJango', imagen: 'django.svg', nivel: 50 },
     { nombre: 'Flask', imagen: 'flask.svg', nivel: 70 },
     { nombre: 'Docker', imagen: 'docker.svg', nivel: 60 },
@@ -20,9 +20,10 @@ lenguajes = [
     { nombre: 'MySQL', imagen: 'mysql.svg', nivel: 70 },
     { nombre: 'MongoDB', imagen: 'mongodb.svg', nivel: 60 },
     { nombre: 'Windows Server', imagen: 'windows-10.svg', nivel: 60 },
-    { nombre: 'Excel', imagen: 'excel.svg', nivel: 95 },
-    { nombre: 'Word', imagen: 'word.svg', nivel: 80 },
-    { nombre: 'PowerPoint', imagen: 'power-point.svg', nivel: 80 },
+    { nombre: 'Excel', imagen: 'excel.svg', nivel: 100 },
+    { nombre: 'VBA', imagen: 'vba.svg', nivel: 100 },
+    { nombre: 'Word', imagen: 'word.svg', nivel: 100 },
+    { nombre: 'PowerPoint', imagen: 'power-point.svg', nivel: 100 },
 ]
 
 function inicio() {
